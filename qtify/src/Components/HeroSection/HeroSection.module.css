@@ -1,0 +1,21 @@
+/* .container {
+  width: 100vw;
+  height: 16.875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* gap: 31px; */
+  height: 16.875rem;
+  /* width: 49.9375rem; */
+  width: 100vw;
+}
+.info {
+  height: 6.25rem;
+  width: 34.75rem;
+}

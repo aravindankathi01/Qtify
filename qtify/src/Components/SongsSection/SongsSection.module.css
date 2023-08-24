@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+  margin-top: 18px;
+}
+h4 {
+  cursor: pointer;
+}
+.cardWrapper {
+  margin-top: 18px;
+}

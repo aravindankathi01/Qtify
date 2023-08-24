@@ -1,0 +1,21 @@
+.searchbar {
+  height: 48px;
+  width: 502px;
+  border: 1px solid var(--color-black);
+  border-radius: 8px 0px 0px 8px;
+  padding: 14px 20px;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+.searchIcon {
+  height: 48px;
+  width: 66px;
+  border: 1px solid var(--color-black);
+  border-radius: 0px 8px 8px 0px;
+  border-left: none;
+  background-color: var(--color-white);
+  padding: 14px 20px;
+  cursor: pointer;
+}
