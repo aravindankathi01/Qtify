@@ -5,6 +5,7 @@ import Section from "./Components/Section/Section";
 import fetchApi from "./api/api";
 import styles from "./App.module.css";
 import SongsSection from "./Components/SongsSection/SongsSection";
+import FrequentlyAsked from "./Components/FrequentlyAsked/FrequentlyAsked";
 
 const App = () => {
   const [topAlbumsData, setTopAlbumsData] = useState([]);
@@ -37,13 +38,14 @@ const App = () => {
 
   return (
     <>
-      <NavBar />
+      <NavBar data={topAlbumsData} />
       <HeroSection />
       <div className={styles.sectionWrapper}>
         <Section title='Top Albums' data={topAlbumsData} type='album' />
         <Section title='New Albums' data={newAlbumsData} type='album' />
         <SongsSection title='Songs' data={allSongs} type='songs' />
       </div>
+      <FrequentlyAsked />
     </>
   );
 };

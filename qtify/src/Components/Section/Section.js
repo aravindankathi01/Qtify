@@ -37,7 +37,9 @@ const Section = ({ title, data, type }) => {
           )}
         </div>
       ) : (
-        <CircularProgress />
+        <div className={styles.circularProgress}>
+          <CircularProgress />
+        </div>
       )}
     </div>
   );
